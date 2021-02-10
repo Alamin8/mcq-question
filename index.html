@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCQ Question Pattran</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+        integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Subject & Question Quantity -->
+    <section>
+        <div class="row">
+            <div class="container">
+                <div class="col-md-12">
+                    <h1 class="text-center">Multiple Short Question</h1>
+                </div>
+                <div class="col-md-12">
+                    <form>
+                        <div class="row">
+                            <div class="container d-flex justify-content-center">
+                                <div class="col-10">
+                                    <input type="text" class="form-control" placeholder="Subject Name">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="container d-flex justify-content-center">
+                                <div class="col-10">
+  
+                                        <input type="number" class="form-control col my-2" placeholder="Total Question">
+                                        <button class="btn btn-primary col">OK</button>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Question Create -->
+    <section class="mt-2">
+        <div class="row">
+            <div class="container d-flex justify-content-center ">
+                <div class="col-10">
+                    <div class="input-group mb-3 ">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="basic-addon1"><i class="fas fa-book-reader"></i></span>
+                        </div>
+                        <input type="text" class="form-control " placeholder="Write Question"
+                            aria-label="Write Question" aria-describedby="basic-addon1">
+                    </div>
+
+                    <!-- Answer Type -->
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <label class="input-group-text" for="inputGroupSelect01">Answer Type</label>
+                        </div>
+                        <select class="custom-select" id="inputGroupSelect01">
+                            <option selected>Choose...</option>
+                            <option value="1">Four to One</option>
+                            <option value="2">Three to Four</option>
+                        </select>
+                    </div>
+
+                    <!-- Windiw  by answer type four to one -->
+                    <div class="four-to-one">
+                        <div class="input-group mb-3 ">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="basic-addon1">A</span>
+                            </div>
+                            <input type="text" class="form-control " placeholder="Write Answer for A"
+                                aria-label="Write Question" aria-describedby="basic-addon1">
+                        </div>
+
+                        <div class="input-group mb-3 ">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="basic-addon1">B</span>
+                            </div>
+                            <input type="text" class="form-control " placeholder="Write Answer for B"
+                                aria-label="Write Question" aria-describedby="basic-addon1">
+                        </div>
+
+                        <div class="input-group mb-3 ">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="basic-addon1">C</span>
+                            </div>
+                            <input type="text" class="form-control " placeholder="Write Answer for C"
+                                aria-label="Write Question" aria-describedby="basic-addon1">
+                        </div>
+
+                        <div class="input-group mb-3 ">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="basic-addon1">D</span>
+                            </div>
+                            <input type="text" class="form-control " placeholder="Write Answer for D"
+                                aria-label="Write Question" aria-describedby="basic-addon1">
+                        </div>
+                    </div>
+
+                    <!-- Windiw  by answer type Three to Four -->
+                    <div class="four-to-one">
+                        <div class="input-group mb-3 ">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="basic-addon1">i</span>
+                            </div>
+                            <input type="text" class="form-control " placeholder="Write Answer for i"
+                                aria-label="Write Question" aria-describedby="basic-addon1">
+                        </div>
+
+                        <div class="input-group mb-3 ">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="basic-addon1">ii</span>
+                            </div>
+                            <input type="text" class="form-control " placeholder="Write Answer for ii"
+                                aria-label="Write Question" aria-describedby="basic-addon1">
+                        </div>
+
+                        <div class="input-group mb-3 ">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="basic-addon1">iii</span>
+                            </div>
+                            <input type="text" class="form-control " placeholder="Write Answer for iii"
+                                aria-label="Write Question" aria-describedby="basic-addon1">
+                        </div>
+
+
+                        <!-- answer -->
+                        <div class="input-group mb-3 ">
+                            <div class="col-md-6 col-sm-12 col-lg-3">
+                                <div class="input-group mb-3 ">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="basic-addon1">A</span>
+                                    </div>
+                                    <input type="text" class="form-control " placeholder="i" aria-label="i"
+                                        aria-describedby="basic-addon1">
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-12 col-lg-3">
+                                <div class="input-group mb-3 ">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="basic-addon1">B</span>
+                                    </div>
+                                    <input type="text" class="form-control " placeholder="ii" aria-label="ii"
+                                        aria-describedby="basic-addon1">
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-12 col-lg-3">
+                                <div class="input-group mb-3 ">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="basic-addon1">C</span>
+                                    </div>
+                                    <input type="text" class="form-control " placeholder="iii" aria-label="iii"
+                                        aria-describedby="basic-addon1">
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-12 col-lg-3">
+                                <div class="input-group mb-3 ">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="basic-addon1">D</span>
+                                    </div>
+                                    <input type="text" class="form-control " placeholder="i, ii & iii"
+                                        aria-label="i, ii & iii" aria-describedby="basic-addon1">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <button class="btn btn-primary">ADD</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
